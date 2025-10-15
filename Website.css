@@ -1,9 +1,9 @@
-    body{ 
+.body{ 
     margin: 0; 
     height: 100vh; 
     display: flex; 
     flex-direction: column; 
-    font-family: 'Poppins', sans-serif;    
+    font-family: "Poppins", sans-serif;    
     background-color: #ffffff;
     color: #000000;
 }
@@ -44,8 +44,6 @@
   color: darkorange;
 }
 
-
-
 .text-container span {
     color: orange;
     font-weight: bold;
@@ -55,8 +53,6 @@
     font-family: "BHH Sans Bogle";
 }
 
-
-/* Paragraph text */
 .text-container p {
     font-size: 16px;
     line-height: 1.6;
