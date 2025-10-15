@@ -6,13 +6,23 @@ body{
 }
 
 .image-container img{
-    width: 300px;
+    width: 250px;
     border-radius: 10px;
 }
 
 .image-container {
     position: fixed;
     bottom: 20;
-    padding: 30vh 20px;
+    padding: 20vh 70px;
    
+}
+.box{
+    background-color: rgb(255, 153, 0);
+    width: 30px;
+    height: 30px;
+    border-radius:100px;
+    top:70%;
+    left: 50%;
+    position:fixed;
+    
 }
