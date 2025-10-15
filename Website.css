@@ -34,6 +34,16 @@
     color: #000000;
     margin-bottom: 15px;
 }
+.page-link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.page-link:hover {
+  color: darkorange;
+}
+
 
 
 .text-container span {
@@ -64,7 +74,8 @@
 
 .image-container { 
     position: absolute; 
-    
+    width: 250px;
+
     left: 5%;
     padding: 20vh 70px; 
 } 
