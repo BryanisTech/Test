@@ -24,21 +24,25 @@
     background-color: white; 
     padding: 25px 35px;
     border-radius: 12px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 10px orange;
     width: 35%; 
 }
 
 
 .text-container h2 {
-    font-size: 28px;
+    font-size: 40px;
+    color: #000000;
     margin-bottom: 15px;
 }
 
-/* Highlighted words */
+
 .text-container span {
     color: orange;
     font-weight: bold;
-    transition: 0.3s;
+
+}
+.Special-text{
+    font-family: "BHH Sans Bogle";
 }
 
 
@@ -53,11 +57,14 @@
 .image-container img{ 
     width: 250px; 
     border-radius: 10px; 
-    
+    box-shadow: 0 4px 10px orange; 
 } 
+
+
 
 .image-container { 
     position: absolute; 
+    
     left: 5%;
     padding: 20vh 70px; 
 } 
